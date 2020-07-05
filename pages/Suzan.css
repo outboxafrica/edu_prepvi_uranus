@@ -1,0 +1,31 @@
+header { color: #6a097d ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-stretch: wider;
+  font-size: xx-large;
+
+}
+body {
+  background-color: #eb6383 ;    
+  }
+  img {
+    width: 200px;
+    height: 200px;
+  }
+h1 {
+  text-align: center;
+  text-decoration: royalblue;
+  text-shadow: salmon;
+}
+
+  footer {
+    text-align: center;
+    padding: 5px;
+    background-color: DarkSalmon;
+    color: purple;
+  }
+  nav {
+    text-align: right;
+    padding: 3px;
+    background-color: #b4f2e1 ;
+  }
