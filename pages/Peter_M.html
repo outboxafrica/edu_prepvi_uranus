@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="\styles\peter.css">
+    <link Member rel="stylesheet" href="\styles\peter.css">
 
     <style>
     
@@ -14,45 +14,131 @@
 </head>
 <body>
 
-        <header>
+    <header>
 
-            <nav>
+        <nav>
+            
+            <ul>
+                <li><a href="Peter_M.html">Peter'sPortfolio</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Others</a>
+                    <div class="dropdown-content">
+                    <a href="#">Uranus Member 1</a>
+                    <a href="#">Uranus Member 2</a>
+                    <a href="#">Uranus Member 3</a>
+                    </div>
+                </li>
+            </ul>
 
-                <ul>
+        </nav>
 
-                    <li><a href="index.html">Home</a></li>
-
-                    <li><a href="Peter_M.html">Peter'sPortfolio</a></li>
-                    
-                    <li><a href="#about">About</a></li>
-
-                    <li><a href="#contact">Contact</a></li>                    
-
-                </ul>
-            </nav>
-
-        </header>
+    </header>
 
     <main class="container">
     
         <div class="row1" >
-            Prof_photo and about_me
+            <!-- Prof_photo and about_me -->
+            <!-- <img src="" alt="Nature" style="width:100%;"> -->
+            <div class="text-block">
+                <h1>Hey there!</h1>
+                <h2>I am Peter Mulindwa</h2>
+                 <h4><u>A junior software developer</u></h4>
+                <h3>from Kampala, Uganda</h3>
+            </div>
+
         </div>
         
         <div class="row2" id="about">
 
             <div class="column one">
-                Education and Experience
+               <h1 style="text-align: center;"> Education background </h1>
+
+               <p>Lorem ipsum dolor amet consectetur adipisicing el. hello world</p>
+
+               <p>Lorem ipsum dolor amet consectetur adipisicing el. hello world</p>
+
+               <p>Lorem ipsum dolor amet consectetur adipisicing el. hello world</p>
+
+
+               <h1>Experience</h1>
+
+               <p>Lorem ipsum dolor amet consectetur adipisicing el. hello world</p>
+
+               <p>Lorem ipsum dolor amet consectetur adipisicing el. hello world</p>
+
+               <p>Lorem ipsum dolor amet consectetur adipisicing el. hello world</p>
+
+
+
             </div>
 
             <div class="column two">
-                My Projects
+                <h1 style="text-align: center;">Projects worked on</h1>
+
+                <div class="polaroid">
+                    <img src="../imgs/project1.jpg" alt="image" style="width:100%">
+                    <div class="polaroid_text">
+                      <p>Real estate site</p>
+                    </div>
+                </div>
+
+                <div class="polaroid">
+                    <img src="../imgs/project2.jpg" alt="image" style="width:100%">
+                    <div class="polaroid_text">
+                      <p>Ekampus student portal</p>
+                    </div>
+                </div>
+
+                <div class="polaroid">
+                    <img src="../imgs/projec3.jpg" alt="image" style="width:100%">
+                    <div class="polaroid_text">
+                      <p>Tech blog site</p>
+                    </div>
+                </div>
+
             </div>
 
         </div>
 
         <div class="row3" id="contact">
-            contact info
+
+            <h1 style="text-align: center; border-bottom: 1px black solid; padding-bottom: 3px;">Let's stay in touch</h1>
+            
+            <div class="column contacts socials">
+
+                <h2><u>Call me</u></h2>
+
+                <h3><a href="tel:+256 758565541">+256 758565541 &nbsp; OR</a></h3>
+
+                <h3><a href="tel:+256 775823018">+256 775823018</a></h3>
+
+                <h2 style="clear: left;"><u>My social handles</u></h2>
+
+                <h3><a href="www.facebook.com/PeterMula">facebook</a></h3>
+
+                <h3><a href="www.twitter.com/PeterMula">twitter</a></h3>
+
+                <h3><a href="www.instagram.com/PeterMula">instagram</a></h3>
+
+                <h3><a href="www.github.com/PeterMula">github</a></h3>
+
+            </div>
+            
+            <div class="column contacts">
+
+                <h2 style="text-align: center;"><u>Message me</u></h2>
+
+                <form action="" method="post">
+                    <input type="email" name="email" id="" placeholder="enter email" class="input"> 
+                    <textarea name="" id="" cols="30" rows="10" placeholder="type your message" class="input"></textarea> <br>
+                    <button type="submit">Send</button>
+                </form>
+
+            </div>
+
         </div>
         
     </main>
