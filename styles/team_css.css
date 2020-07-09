@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 3px;
+    padding: 2%;
+}
+
+/*  navbar styling*/
+
+.logo {
+    width: 60%;
+}
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:  rgb(0, 132, 255);
+
+}
+
+li {
+float: left;
+}
+
+li a, .dropbtn {
+display: inline-block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+background-color: rgba(0, 183, 255, 0.575);
+}
+
+li.dropdown {
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f0e7e7;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #c5baba;}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+/* end of navbar styling*/
+
+main {
+    /* background-image: url('../imgs/tean_header2.jpg'); */
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 2px;
+    position: relative;
+}
+
+main img {
+    opacity: 0.5;
+    max-height: 500px;
+    max-width: 100%;
+}
+
+.welcome_text {
+    border-radius: 6px;
+    background-color: rgba(250, 253, 253, 0.548);
+    padding: 10px;
+    text-align: left;
+    max-width: 40%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+/* footer styles */
+
+footer {
+    clear: left;
+    color: white;
+    background-color: rgb(0, 132, 255);
+    height: 60px;
+    padding: 3px;
+}
