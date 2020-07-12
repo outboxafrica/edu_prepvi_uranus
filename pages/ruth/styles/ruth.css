@@ -1,0 +1,200 @@
+body{
+    margin: 0px;
+    background-position: left;
+    background-color: #272727;
+
+}
+
+.main{
+    height: 800px;
+    background-color: lavender;
+}
+
+.navbar{
+    width: 100%;
+    background-color: darkred;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    text-decoration: none;
+}
+
+.navbar a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 7px;
+    width: 20%; /* Four links of equal widths */
+    text-align: center;
+    padding-top: 10px;
+}
+
+li {
+    font-size: 10px;
+    color: blueviolet;
+    font-family: cursive;
+}
+
+.gallery{
+    margin: 10px 50px;
+    display: inline;
+
+}
+
+.gallery img{
+    width: 230px;
+    padding: 5px;
+    transition:  Is;
+}
+
+.profile_image{
+    height: 80px;
+}
+
+.gallery-image {
+    width: 150px;
+    height: auto;
+}
+
+.gallery img:hover{
+    transform: scale();
+    display: flex;
+} 
+
+.gallery-holder {
+    margin-left: 100px;
+}
+
+.footer{
+    background-color: darkred;
+    font-size: 15px;
+    padding: 10px;
+    display: block;
+    align-items: center;
+}
+
+.projects {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+div >  a {
+   color: white;
+   font-size: 5px;
+}
+
+.gallery-header {
+    color: white;
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.welcome  {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.footer ul{
+    
+    padding-top: 10px;
+
+}
+
+.footer li{
+    list-style-type: none;
+    
+
+}
+
+.footer a{
+ text-decoration: none;
+ display: block;
+ margin: 0 auto;
+ text-align: center;
+ }
+
+.contactme{
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 45%;
+    transform: translate(-50%, -50%);
+
+}
+
+.contactme h2{
+    color:white;
+    font-size: 25px;
+    
+}
+
+.contactme p{
+    color: blue;
+    font-size: 12px;
+    font-family: monospace;
+}
+
+.form{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+input{
+    width: 100%;
+    margin: 20px 0;
+    background: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 1px solid red;
+}
+
+aside{
+    float: right;
+    margin: 0 1.5%;
+    width: 30%;
+}
+
+p{
+    font-family: monospace;
+    font-size: 10px;
+    color: black;
+    font-style: italic;
+    margin-left: 30px;
+
+}
+
+span {
+    font-family: monospace;
+    font-size: 10px;
+    color: white;
+    font-style: italic;
+ }
+
+
+
+h6 {
+    margin-top: 60px;
+    margin-left: 30px;
+    font-family: cursive;
+    color: darkred;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+h5 {
+    margin-top: 60px;
+    margin-left: 30px;
+    font-family: cursive;
+    color: darkred;
+}
+.homeContainer{
+    display: block;
+    height: 90vh;
+}
+
+
+
+
+

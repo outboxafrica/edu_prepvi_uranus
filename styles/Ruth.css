@@ -12,10 +12,17 @@ body{
 
 .navbar{
     width: 100%;
+<<<<<<< HEAD
+    background-color: darkred;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+=======
     height: 30px;
     background-color: darkred;
     position: fixed;
     top: 0px;
+>>>>>>> d30bcb05a35ed0061ad10501f5342566cac4893d
     text-decoration: none;
 }
 
@@ -52,8 +59,13 @@ li {
 }
 
 .gallery-image {
+<<<<<<< HEAD
+    width: 150px;
+    height: auto;
+=======
     width: 90px;
     height: 100px;
+>>>>>>> d30bcb05a35ed0061ad10501f5342566cac4893d
 }
 
 .gallery img:hover{
@@ -66,11 +78,18 @@ li {
 }
 
 .footer{
+<<<<<<< HEAD
+    background-color: darkred;
+    font-size: 15px;
+    padding: 10px;
+    display: block;
+=======
     position: relative;
     background-color: darkred;
     font-size: 15px;
     display: flex;
     justify-content: space-around;
+>>>>>>> d30bcb05a35ed0061ad10501f5342566cac4893d
     align-items: center;
 }
 
@@ -96,8 +115,14 @@ div >  a {
     color: white;
     font-size: 30px;
     text-align: center;
+<<<<<<< HEAD
+    padding-top: 100px;
+}
+
+=======
     margin-top: 100px;
 }
+>>>>>>> d30bcb05a35ed0061ad10501f5342566cac4893d
 .footer ul{
     
     padding-top: 10px;
@@ -112,27 +137,53 @@ div >  a {
 
 .footer a{
  text-decoration: none;
+<<<<<<< HEAD
+ display: block;
+ margin: 0 auto;
+ text-align: center;
+=======
 
+>>>>>>> d30bcb05a35ed0061ad10501f5342566cac4893d
  }
 
 .contactme{
     text-align: center;
+<<<<<<< HEAD
+    margin-top: 20%;
+    margin-left: 45%;
+=======
     position: absolute;
     top: 30%;
     left: 50%;
+>>>>>>> d30bcb05a35ed0061ad10501f5342566cac4893d
     transform: translate(-50%, -50%);
 
 }
 
+<<<<<<< HEAD
+.contactme h2{
+    color:white;
+    font-size: 25px;
+=======
 .contactme h1{
     color: blue;
     font-size: 46px;
+>>>>>>> d30bcb05a35ed0061ad10501f5342566cac4893d
     
 }
 
 .contactme p{
     color: blue;
     font-size: 12px;
+<<<<<<< HEAD
+    font-family: monospace;
+}
+
+.form{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+=======
 }
 
 .form{
@@ -140,6 +191,7 @@ div >  a {
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
+>>>>>>> d30bcb05a35ed0061ad10501f5342566cac4893d
 }
 
 input{
@@ -147,7 +199,11 @@ input{
     margin: 20px 0;
     background: rgba(0,0,0,0);
     border: none;
+<<<<<<< HEAD
+    border-bottom: 1px solid red;
+=======
     border-bottom: 1px solid;
+>>>>>>> d30bcb05a35ed0061ad10501f5342566cac4893d
 }
 
 aside{
@@ -188,6 +244,13 @@ h5 {
     font-family: cursive;
     color: darkred;
 }
+<<<<<<< HEAD
+.homeContainer{
+    display: block;
+    height: 90vh;
+}
+=======
+>>>>>>> d30bcb05a35ed0061ad10501f5342566cac4893d
 
 
 
