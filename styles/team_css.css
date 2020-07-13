@@ -80,7 +80,7 @@ main {
 main img {
     opacity: 0.5;
     max-height: 500px;
-    max-width: 100%;
+    width: 100%;
 }
 
 .welcome_text {
