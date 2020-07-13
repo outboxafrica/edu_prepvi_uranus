@@ -1,44 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
-    <link href="./styles/ruth.css" rel="stylesheet" type="text/css">
-</head>
-<body>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My portfolio</title>
+      <link rel="stylesheet" href="\styles\navbar.css" />
+      <link rel="stylesheet" href="\styles\footer.css" />
+      <link rel="stylesheet" href="\styles\peter.css" />
+      <link href="./styles/ruth.css" rel="stylesheet" type="text/css">
+<!-- styles -->
 
-    <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="ruth.html">About</a>
-        <a href="ruth_work.html">work</a>
-        <a href="ruth_gallery.html">Gallery</a>
-        <a href="ruth_contactme.html">Contact</a>
-      </nav>
+      <style>
 
-    
+        .projects {
+          text-align: center;
+        }
 
-        <div>
-            <h1 style="text-align: center;color: white;">SOME OF MY PROJECTS</h1>
-            <br>
-            <p style="font-size: 15px; color: white;">Ihave worked on different projects during my journey with OutBox and this am working on and you can find them on Github;</p>
+        .projects a{
+          margin-left: 10px;
+          text-decoration: none;
+          color: blue;
+        }
 
-            <ul>
-                <li><a href="https://github.com/outboxafrica/edu_prepvi_uranus">uranus project</a></li>
-                <li><a href="https://github.com/wanyanaruth/portfolio">class exercise</a></li>
-                <li><a href="https://github.com/wanyanaruth/edu-prepvi">class assignment</a></li>
-            </ul>
-        </div>
+        .projects a:hover {
+          color: black;
+        }
+      </style>
 
-        <br>
+  </head>
+  <body style="height: 600px; padding-left: 30px;">
+
+    <nav>
+      <ul>
+        <li class="logo"><a href="../index.html">Home</a></li>
+        <li><a href="ruth.html">About</a></li>
+        <li><a href="ruth_work.html">work</a></li>
+        <li><a href="ruth_gallery.html">Gallery</a></li>
+        <li><a href="ruth_contactme.html">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Team Members</a>
+          <div class="dropdown-content">
+            <a href="../pages/Peter_M.html">Peter Mulindwa</a>
+            <a href="./Ruth.html">Ruth</a>
+            <a href="./Suzan.html">Suzan</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+      <!-- <nav class="navbar">
+          <a href="index.html">Home</a>
+          <a href="ruth.html">About</a>
+          <a href="ruth_work.html">work</a>
+          <a href="ruth_gallery.html">Gallery</a>
+          <a href="ruth_contactme.html">Contact</a>
+        </nav> -->
+
+      
+
+    <div style="height: 500px;" class="projects">
+      <h1 style="text-align: center;color: black;">SOME OF MY PROJECTS</h1>
+      <br>
+      <p style="font-size: 15px; color: black;">I have worked on different projects during my journey with OutBox and this am working on and you can find them on Github;</p>
+
+      <!-- <ul>
+          <li><a href="https://github.com/outboxafrica/edu_prepvi_uranus">uranus project</a></li>
+          <li><a href="https://github.com/wanyanaruth/portfolio">class exercise</a></li>
+          <li><a href="https://github.com/wanyanaruth/edu-prepvi">class assignment</a></li>
+      </ul> -->
+
+      <a href="https://github.com/outboxafrica/edu_prepvi_uranus">uranus project</a>
+      <a href="https://github.com/wanyanaruth/portfolio">class exercise</a>
+      <a href="https://github.com/wanyanaruth/edu-prepvi">class assignment</a>
+              
+    </div>
+
+    <br>
+
+    <footer>
+      <h4 style="text-align: center;">
+        &COPY;The Uranus Team 2020. &nbsp; All rights reserved.
+      </h4>
+    </footer>
         
-       
-</body>
+  </body>
 
-<footer>
-  <div class="footer">
-      <div>
-        <a href="#">  &copy; All Rights Reserved 2020</a>
-      </div>
-</footer>
+  
+
 </html> 
