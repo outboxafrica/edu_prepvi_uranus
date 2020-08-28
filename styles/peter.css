@@ -1,13 +1,17 @@
 * {
     box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 body {
-    /* background-color: blue; */
-    width: 95%;
-    margin: 3%;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:rgba(220, 220, 220, 0.445);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background-color:rgba(220, 220, 220, 0.445); */
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: rgba(0, 0, 255, 0.699);
+    padding: 0.5rem;
 }
 
 header {
@@ -25,7 +29,7 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-background-color:  rgb(0, 132, 255);
+background-color:  rgb(0, 132, 255); 
 
 }
 
@@ -79,8 +83,6 @@ display: block;
     height: 420px;
     position: relative;
     margin:4px;
-    /* background-image: url('../imgs/portfolio_header_img1.jpg'); */
-    /*  */
     background-repeat: no-repeat;
     
 }
@@ -93,7 +95,6 @@ display: block;
     position: absolute;
     bottom: 25%;
     right: 40%;
-    /* background-color: rgba(0, 0, 0, 0.212); */
     color: rgb(15, 15, 15);
     padding-left: 20px;
     padding-right: 20px;
@@ -104,12 +105,16 @@ display: block;
 .row2 {
     padding-bottom: 2px;
     margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 div.polaroid {
-    max-width: 250px;
+    width: 30%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 5px;
+    margin: 0.5rem;
     float: left;
     border-radius: 4px;
     border: none;
@@ -131,43 +136,55 @@ div.polaroid {
     color: white;
   }
 
-
-
 .column {
     float: left;
-    padding: 2px;
-    /* margin: 2px; */
-    
+   
 }
 
 .one {
-    background-color:  rgba(0, 132, 255, 0.199);
+    background-color:  rgba(113, 130, 146, 0.199);
     border-radius: 6px;
-    max-width: 450px;
+    padding: 1rem;
+    width: 30%;
+}
+
+.one h2 {
+margin: 0.7rem;
+}
+
+.two {
+    padding: 1rem;
 }
 
 .two h1 {
-    border-bottom: 1px solid black;
-    padding-top: 20px;
-    max-width: 850px;
+    padding: 1rem;
+   
 }
 
 .row3 {
     clear: left;
-    padding-left: 35px;
-    margin-top: 10px;
-    height: 300px;
-    background-color: rgba(0, 132, 255, 0.199);
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;  
+    background-color:  rgba(113, 130, 146, 0.199);
+}
+
+.contacts, .message {
+    width: 45%;
+    padding: 1rem;
+    justify-content: center;
 }
 
 .contacts {
-    min-width: 45%;
+    border-right: black solid 1px;
 }
-
 
 .contacts h3 {
       float: left;
-      margin: 8px;
+      margin: 0.5rem;
   }
 
 .contacts a {
@@ -180,40 +197,36 @@ div.polaroid {
     text-decoration: none;
 }
 
-.socials {
-    
-    /* border-radius: 6px; */
-    padding-left: 30px;
-}
-
 .message {
-    padding-left: 30px;
-    border-left: black solid 1px;
+    /* border-left: black solid 1px; */
+    padding: 0.5rem 4rem 0 4rem;
 }
 
   textarea {
    
-    height: 50px;
+    /* height: 50px; */
+    height: 5rem;
   }
 
   .input {
       width: 90%;
-      /* height: 30px; */
       border: 0.5px solid black;
-      padding: 5px;
+      padding: 1rem;
       border-radius: 5px;
       outline: none;
-      margin: 3px;
+      margin: 0.2rem;
+     
+      
   }
 
-  .contacts button {
-      margin: 3px;
+  .message button {
+      margin: 0.2rem;
       background-color: blue;
       border: none;
       border-radius: 5px;
       cursor: pointer;
-      width: 80px;
-      height: 35px;
+      width: 20%;
+      height: 2rem;
       color: white;
   }
 
@@ -221,6 +234,6 @@ footer {
     clear: left;
     color: white;
     background-color: rgb(0, 132, 255);
-    height: 60px;
-    padding: 3px;
+    margin-top: 1rem;
+    padding: 1rem;
 }
