@@ -103,8 +103,8 @@ display: block;
 
 
 .row2 {
-    padding-bottom: 2px;
-    margin-bottom: 12px;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -136,10 +136,10 @@ div.polaroid {
     color: white;
   }
 
-.column {
+/* .column {
     float: left;
    
-}
+} */
 
 .one {
     background-color:  rgba(113, 130, 146, 0.199);
@@ -154,6 +154,7 @@ margin: 0.7rem;
 
 .two {
     padding: 1rem;
+    width: 65%;
 }
 
 .two h1 {
